@@ -1,0 +1,35 @@
+{
+  "name": "edu_web",
+  "version": "1.0.0",
+  "description": "My kickass Nuxt.js project",
+  "author": "langwenqi",
+  "private": true,
+  "scripts": {
+    "dev": "nuxt",
+    "build": "nuxt build",
+    "start": "nuxt start",
+    "generate": "nuxt generate",
+    "lint": "eslint --ext .js,.vue --ignore-path .gitignore ."
+  },
+  "dependencies": {
+    "@nuxtjs/axios": "^5.3.6",
+    "@nuxtjs/dotenv": "^1.4.0",
+    "@nuxtjs/pwa": "^3.0.0-0",
+    "@nuxtjs/router": "^1.5.0",
+    "element-ui": "^2.4.11",
+    "nuxt": "^2.0.0",
+    "vue-awesome-swiper": "^3.1.3"
+  },
+  "devDependencies": {
+    "@nuxtjs/eslint-config": "^1.0.1",
+    "@nuxtjs/eslint-module": "^1.0.0",
+    "@nuxtjs/style-resources": "^1.0.0",
+    "babel-eslint": "^10.0.1",
+    "babel-plugin-component": "^1.1.1",
+    "eslint": "^6.1.0",
+    "eslint-plugin-nuxt": ">=0.4.2",
+    "node-sass": "^4.13.0",
+    "os": "^0.1.1",
+    "sass-loader": "^8.0.0"
+  }
+}
